@@ -61,10 +61,10 @@ body {
     gap: 40px;
 }
 
-.apresentacao__conteudo__titulo {
-    font-size: 3.25rem;
+.apresentacao__conteudo__titulo__elenco {
+    font-size: 2rem;
     font-family: var(--fonte-logo);
-    color: var(--cor-logo);
+    color: var(--cor-secundaria);
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -129,15 +129,20 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-button {
+.ronaldinho {
+    text-align: left;     
+}
+
+button { 
+    font-family: var(--fonte-secundaria);
     color: var(--cor-secundaria);
     background-color: var(--cor-primaria);
-    width: 9.3rem;
+    /* width: 9.3rem; */
     text-align: center;
     border-radius: 0.9rem;
     padding: 0.3rem 0.3rem;
-    font-size: 15px;
-    border: 2px solid var(--cor-terciaria);
+    font-size: 1.1rem;
+    border:none;
     display: inline flex;
     align-items: center;
     gap: 0.6rem; 
@@ -145,12 +150,13 @@ button {
     cursor: pointer;
 } 
 
-button:hover {
+/* button:hover {
     box-shadow: 0 0 3px yellow,
     0 0 25px yellow, 0 0 50px yellow,
     0 0 100px yellow, 0 0 200px yellow;
-    /* background-color: var(--cor-hover); */
-}
+    /* background-color: var(--cor-hover); 
+}*/
+
 
 /* button { */
 
@@ -202,7 +208,7 @@ li {
 } 
 
 .apresentacao__imagem {
-    width: 30%;
+    width: 55%;
 }
 
 .rodape {
@@ -215,10 +221,10 @@ li {
     font-weight: 300;
 }
 
-.rodape__2 {
-    padding: 0.5rem;
+.rodape__3 {
+    padding: 0.6rem;
     color:var(--cor-primaria);
-    background-color:var(--cor-terciaria);
+    background-color:var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
