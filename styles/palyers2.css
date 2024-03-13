@@ -224,6 +224,11 @@ li {
     color: red;
 }
 
+.greencard {
+    font-weight: 100;
+    color:greenyellow;
+}
+
 .apresentacao__imagem {
     width: 50%;
 }
