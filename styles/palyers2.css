@@ -228,6 +228,10 @@ li {
     width: 50%;
 }
 
+.apresentacao__video{
+    width: 35%;
+}
+
 .rodape {
     padding: 0.5rem;
     color: var(--cor-primaria);
