@@ -168,6 +168,11 @@ button {
     width:30%;
 }
 
+.Depois {
+    font-weight: 100;
+    color:darkgoldenrod;
+}
+
 .descricao {
     box-sizing: border-box;
     justify-content: center;
