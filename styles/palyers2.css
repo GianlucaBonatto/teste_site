@@ -229,6 +229,16 @@ li {
     color: gold;
 }
 
+.highlights {
+    font-weight: 100;
+    color: var(--cor-logo);
+}
+
+.gay {
+    font-weight: 100;
+    color:palevioletred;
+}
+
 .greencard {
     font-weight: 100;
     color:greenyellow;
